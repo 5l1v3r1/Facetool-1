@@ -1,5 +1,5 @@
 # Pesbukchecker
-![](./Images/Screenshot.png)
+![](./images/Screenshoot.png)
 # Usage
 ```
 pkg update && pkg upgrade
