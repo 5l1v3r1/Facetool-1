@@ -1,7 +1,8 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
-# Life Of Programmer
-# Coded By Nedi Senja
+# Pesbuk Checker
+# Coded By Senja
+# Github: github.com/thesixtynine/Pesbukchecker
 
 import os, sys, time, random, cookielib, mechanize
 
@@ -21,7 +22,7 @@ def banner():
     print ('      |   |   |          |')
     print ('\x1b[106;96m[]\x1b[100;90m[]\x1b[0m~\x1b[4m\x1b[0;90;46;1m Hek \x1b[0;97;45;1m Pesbuk \033[0;90;43;1m Targets \033[0m~\x1b[103;93m[]\x1b[102;92m[]\x1b[105;95m[]\x1b[107;97m[]\x1b[0m')
     print ('              \x1b[1;77m/\x1b[0m')
-    print ('     \x1b[0;90;47;1m * \x1b[0;1;104m Coded by \x1b[0;1;101m # Nedi  \x1b[0m')
+    print ('     \x1b[0;90;47;1m * \x1b[0;1;104m Coded by \x1b[0;1;101m # Senja \x1b[0m')
     print
     print
     time.sleep(1)
