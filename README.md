@@ -10,6 +10,11 @@ cd Facecracks
 ls
 python2 facecracks.py
 ```
+
+```
+pip2 install -r requirement.txt
+```
+
 #### Kontak:
 + Email  d_q16x@outlook.co.id
 + WhatsApp +62 85775433901
