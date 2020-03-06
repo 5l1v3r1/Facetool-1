@@ -13,7 +13,7 @@ Versi       : 4.1 (Update: 26 Februari 2020, 9:00 PM)
 Tanggal     : 15 Agustus 2019
 Author      : Nedi Senja
 Tujuan      : Brefungsi untuk mengcracks password
-              facebook teman, musuh & mantan
+              facebook teman, musuh dan mantan
 Terimakasih : Allah SWT.
               FR13NDS, & seluruh
               manusia seplanet bumi
