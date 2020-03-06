@@ -1,14 +1,14 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# Facetoolkit
+# Facetool
 # Coded by Nedi Senja
-# Github: https://github.com/stepbystepexe/Facetoolkit
+# Github: https://github.com/stepbystepexe/Facetool
 
-import os, sys, time, random, cookielib, mechanize, requests
+import os, sys, time, random, cookielib, mechanize
 from time import sleep
 
 info = """
-Nama        : Facecracks
+Nama        : Facetool
 Versi       : 4.1 (Update: 26 Februari 2020, 9:00 PM)
 Tanggal     : 15 Agustus 2019
 Author      : Nedi Senja
