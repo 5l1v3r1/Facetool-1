@@ -4,7 +4,7 @@
 # Coded by Nedi Senja
 # Github: https://github.com/stepbystepexe/Facetoolkit
 
-import os, sys, time, random, cookielib, mechanize
+import os, sys, time, random, cookielib, mechanize, requests
 from time import sleep
 
 info = """
