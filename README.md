@@ -1,5 +1,7 @@
 # Facetool:
-*Tool hack mantan biar balikan kalo gx sayang santet aja. Berfungsi untuk mengcrack paswword korban secara* ```Bruteforce``` *bagi seseorang yang sudah pro tool ini hanyalah sampah. Tapi tolong haragi karya milik orang seburuk apapun itu. Jangan disalah gunakan gunakan dengan bijak.
+*Tool hack mantan biar balikan kalo gx sayang santet aja Goblok!. Berfungsi untuk mengcrack paswword korban secara* ```Bruteforce``` *bagi seseorang yang sudah pro tool ini hanyalah sampah. Tapi tolong haragi karya milik orang seburuk apapun itu. Jangan disalah gunakan gunakan dengan bijak.*
+#### Screenshot:
+![](./Skrinsut.png)
 #### Cara Menginstall:
 ```
 pkg update && pkg upgrade
@@ -14,7 +16,7 @@ python2 facetool.py
 pip2 install -r requirement.txt
 ```
 #### Kontak:
-+ Email  d_q16x@outlook.co.id
++ Email d_q16x@outlook.co.id
 + WhatsApp https://tinyurl.com/wel4alo
 #### Paypal:
 + Onclick https://bit.ly/3dcEQcN
